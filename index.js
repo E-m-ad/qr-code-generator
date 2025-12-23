@@ -1,4 +1,4 @@
-import qr from "./qrcode";
+import qr from "qrcode";
 const input = document.querySelector("input");
 const resultBox = document.createElement("div");
 document.body.appendChild(resultBox);
