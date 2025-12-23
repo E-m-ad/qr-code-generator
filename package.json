@@ -1,0 +1,32 @@
+{
+  "homepage": "https://github.com/E-m-ad/Qr-generator-package-qrcode",
+  "name": "qrgenerator",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+  "start": "parcel index.html",
+  "build": "parcel build index.html",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "parcel": "^2.16.3",
+    "qr-image": "^3.2.0",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "assert": "^2.1.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
+    "gh-pages": "^6.3.0",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5"
+  }
+}
